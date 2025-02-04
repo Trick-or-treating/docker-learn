@@ -48,7 +48,7 @@ root@hadoop-master:~#
 ##### 5. start hadoop
 
 ```
-./start-hadoop.sh
+./my_cluster.sh
 ```
 
 ##### 6. run wordcount

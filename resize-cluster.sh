@@ -9,7 +9,7 @@ then
 	exit 1
 fi
 
-# change slaves file
+# change workers file
 i=1
 rm config/slaves
 while [ $i -lt $N ]
@@ -23,6 +23,6 @@ echo ""
 echo -e "\nbuild docker hadoop image\n"
 
 # rebuild kiwenlau/hadoop image
-sudo docker build -t myhadoop:v2.0 .
+sudo docker build -t myhadoop:v3.1.3 .
 
 echo ""

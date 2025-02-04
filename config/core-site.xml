@@ -2,6 +2,15 @@
 <configuration>
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://hadoop-master:9000/</value>
+        <value>hdfs://hadoop-master:9820/</value>
+    </property>
+
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/usr/local/hadoop/data</value>
+    </property>
+    <property>
+        <name>hadoop.http.staticuser.user</name>
+        <value>root</value>
     </property>
 </configuration>
